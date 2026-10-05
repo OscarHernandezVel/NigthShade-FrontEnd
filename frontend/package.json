@@ -1,0 +1,21 @@
+{
+  "name": "nightshade-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nightshade Player web client: playlists on doubly linked lists, FIFO queue, pointer drag & drop.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "happy-dom": "^20.14.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2",
+    "vitest": "^4.1.11"
+  }
+}
